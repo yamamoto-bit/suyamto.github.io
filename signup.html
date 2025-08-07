@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi User</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="sidebar">
+    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+    <nav>
+      <a href="artikel.html">Artikel</a>
+      <a href="event.html">Event</a>
+      <a href="gallery.html">Galeri Foto</a>
+      <a href="client.html">Klien Kami</a>
+      <p>Login</p>
+      <div>  
+        <a href="login.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="header">
+    <h1>HVCI - Honda Vario Club Indonesia</h1>
+    <nav>
+      <div class="nav-toggle" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#profile">Profile</a>
+        <a href="index.html#visi-misi">Visi Misi</a>
+        <a href="index.html#produk">Produk</a>
+        <a href="index.html#kontak">Kontak</a>
+        <a href="index.html#about">About us</a>
+      </div>
+      <div class="nav-links hidden" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#profile">Profile</a>
+        <a href="index.html#visi-misi">Visi Misi</a>
+        <a href="index.html#produk">Produk</a>
+        <a href="index.html#kontak">Kontak</a>
+        <a href="index.html#about">About us</a>
+        <hr>
+        <a href="artikel.html">Artikel</a>
+        <a href="event.html">Event</a>
+        <a href="gallery.html">Galeri Foto</a>
+        <a href="client.html">Klien Kami</a>
+      </div>
+    </nav>
+  </div>
+   <div class="grid">
+    <div id="login" class="login">
+        <h2 >Registrasi Member</h2>
+        <form>
+            <input type="text" placeholder="Nama Lengkap">
+            <input type="text" placeholder="No HP">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Konfirmasi Password">
+            <p>
+            <input type="checkbox" name="setuju"> Saya setuju mentaati peraturan dari HVCI</p>
+             
+            <button type="submit">Submit</button></p>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
